@@ -148,11 +148,7 @@ const medusaConfig = {
         }
       }
     }] : []),
-    {
-    resolve: "./src/plugins/health",
-    options: {}
-  },
-  ],
+  ]
 };
 
 console.log(JSON.stringify(medusaConfig, null, 2));
