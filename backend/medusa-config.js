@@ -147,7 +147,11 @@ const medusaConfig = {
           }
         }
       }
-    }] : [])
+    }] : []),
+    {
+    resolve: "./src/plugins/health",
+    options: {}
+  }
   ]
 };
 
